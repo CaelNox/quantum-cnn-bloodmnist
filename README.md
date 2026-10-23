@@ -4,7 +4,7 @@ A hybrid Quantum-Classical Convolutional Neural Network (Quanvolutional Network)
 
 ---
 
-## 📌 Overview & Architecture
+## Overview & Architecture
 
 Standard 2D convolution filters apply linear weighted sums across pixel patches. In contrast, this Quanvolutional architecture embeds local $2 \times 2$ pixel patches into a multi-qubit quantum state space to extract non-linear spatial correlations:
 
@@ -18,7 +18,7 @@ Standard 2D convolution filters apply linear weighted sums across pixel patches.
 
 ---
 
-## 📊 Benchmark Results (BloodMNIST 8-Class Test Set)
+## Benchmark Results (BloodMNIST 8-Class Test Set)
 
 | Metric | Classical 2D CNN Baseline | Hybrid Quantum CNN (Quanv) |
 | :--- | :---: | :---: |
@@ -31,7 +31,7 @@ Standard 2D convolution filters apply linear weighted sums across pixel patches.
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 .
